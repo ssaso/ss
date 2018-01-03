@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "my-app"
+    "name": "Ss"
   },
   "apps": [
     {
@@ -17,7 +17,7 @@
       "test": "test.ts",
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
-      "prefix": "app",
+      "prefix": "ss",
       "styles": [
         "styles.css"
       ],
@@ -26,7 +26,8 @@
       "environments": {
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
-      }
+      },
+      "baseHref": "https://ssaso.github.io/ss/"
     }
   ],
   "e2e": {
@@ -55,6 +56,9 @@
   },
   "defaults": {
     "styleExt": "css",
+    "serve": {
+      "port": 4207
+    },
     "component": {}
   }
 }

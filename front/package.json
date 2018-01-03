@@ -1,14 +1,21 @@
 {
-  "name": "my-app",
-  "version": "0.0.0",
+  "name": "ss",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --base-href \"/\"",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build:aot-old":"ng build --prod --base-href \"https://ssaso.github.io/ss/\"",
+    "build:prod-old":"ng build --prod --aot=false --base-href \"https://ssaso.github.io/ss/\"",
+    "publish-old":"npm run build:prod-no-aot && ngh --no-silent",
+    "build:aot":"ng build --prod",
+    "build:prod":"ng build --prod --aot=false",
+    "ngh": "ngh --no-silent",
+    "publish":"npm run build:prod && npm run ngh"
   },
   "private": true,
   "dependencies": {

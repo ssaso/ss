@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Tillana");
+
+.page-footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background: #2a2725;
+  height: 52px;
+  border-top: 1px solid #b9b299;
+  padding-top: 20px;
+}
+
+.footer-text {
+  color: ivory;
+  padding-left: 10px;
+  /* float: right; */
+  /* font-family: "Shadows Into Light"; */
+  font-family: "Tillana", cursive;
+}
