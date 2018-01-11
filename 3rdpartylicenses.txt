@@ -87,6 +87,10 @@ MIT
 MIT
 MIT
 
+@angular/animations@5.1.2
+MIT
+MIT
+
 css-loader@0.28.7
 MIT
 Copyright JS Foundation and other contributors
