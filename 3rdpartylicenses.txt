@@ -71,6 +71,10 @@ THE SOFTWARE.
 MIT
 MIT
 
+@angular/common@5.1.2
+MIT
+MIT
+
 @angular/core@5.1.2
 MIT
 MIT
@@ -80,10 +84,6 @@ MIT
 MIT
 
 @angular/router@5.1.2
-MIT
-MIT
-
-@angular/common@5.1.2
 MIT
 MIT
 
